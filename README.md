@@ -42,32 +42,40 @@ Below are the main sections of the web interface, with descriptions and placehol
 
 ### 1. Live Video Feed
 - **Description**: Displays the real-time webcam feed with bounding boxes around detected objects and faces. Bounding boxes are color-coded: green (trusted), yellow (warning), red (suspicious). Each face includes a label with the person’s name, estimated age, and mood.
-- **Image**: `screenshots/live_feed.png`  
+- **Image**:
+  <img src="/screenshots/live-feeds.png" alt="Live Video Feed" width="600">  
   *Placeholder: Shows a webcam feed with a detected face in a green bounding box labeled "John Doe (Age: 35, Mood: Happy)".*
 
 ### 2. Alerts Panel
 - **Description**: Lists recent alerts (e.g., "Person detected", "Unknown face detected") with severity, timestamp, and acknowledgment status. Users can acknowledge alerts to mark them as reviewed.
-- **Image**: `screenshots/alerts_panel.png`  
+- **Image**:
+  <img src="/screenshots/alerts-panel.png" alt="Alerts Panel" width="600">
   *Placeholder: Displays a table with alerts, including a high-severity alert for an unknown face at 01:17 AM, with an "Acknowledge" button.*
 
 ### 3. Person Management
 - **Description**: Allows users to view, add, update, or delete known persons. Each entry includes a name, status (trusted, warning, suspicious), photo, and notes. Photos are uploaded as base64-encoded images and stored in the database.
-- **Image**: `screenshots/person_management.png`  
+- **Image**:
+  <img src="/screenshots/person-management.png" alt="person Management" width="600">
+  <img src="/screenshots/person-management1.png" alt="person Management" width="600">
   *Placeholder: Shows a list of known persons with a form to add a new person, including fields for name, status, photo upload, and notes.*
 
 ### 4. Analytics Dashboard
 - **Description**: Visualizes detection trends over time (24 hours, 7 days, 30 days) with charts for alert types (high, medium, low) and hourly detection counts. Helps users understand security activity patterns.
-- **Image**: `screenshots/analytics_dashboard.png`  
+- **Image**:
+   <img src="/screenshots/analytics-dashboard.png" alt="Analytics Dashboard" width="600">
   *Placeholder: Displays a bar chart of alerts by severity and a line chart of detections per hour.*
 
 ### 5. Settings
 - **Description**: Configures system parameters, such as face detection confidence, video quality (low, medium, high), and alert sensitivity. Users can toggle features like face recognition and bounding box display.
-- **Image**: `screenshots/settings.png`  
+- **Image**:
+  <img src="/screenshots/settings.png" alt="Settings" width="600">
+  <img src="/screenshots/settings1.png" alt="Settings" width="600">
   *Placeholder: Shows a form with sliders for detection confidence, dropdowns for video quality, and checkboxes for enabling/disabling features.*
 
 ### 6. System Status
 - **Description**: Provides an overview of system health, including uptime, storage usage, active streams, and detected persons. Indicates whether face detection and landmark detection are enabled.
-- **Image**: `screenshots/system_status.png`  
+- **Image**:
+  <img src="/screenshots/system-status.png" alt="System Status" width="600">
   *Placeholder: Displays metrics like "Uptime: 99.9%", "Active Streams: 1", and "Total Known Faces: 5".*
 
 ## Installation and Setup
@@ -88,8 +96,8 @@ Below are the main sections of the web interface, with descriptions and placehol
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd cctv-surveillance
+   git clone https://github.com/SafwanGanz/SecureWatch.git
+   cd SecureWatch
    ```
 
 2. **Set Up a Virtual Environment**:
@@ -197,4 +205,4 @@ if __name__ == '__main__':
 - **OpenCV**: [https://opencv.org](https://opencv.org)
 
 ## Contact
-For support or customization, contact the development team at [support@example.com](mailto:support@example.com).
+For support or customization, contact the development team at [safwanganz@gmail.com](mailto:safwanganz@gmail.com).

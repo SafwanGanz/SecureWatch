@@ -44,7 +44,7 @@ Below are the main sections of the web interface, with descriptions and placehol
 - **Description**: Displays the real-time webcam feed with bounding boxes around detected objects and faces. Bounding boxes are color-coded: green (trusted), yellow (warning), red (suspicious). Each face includes a label with the person’s name, estimated age, and mood.
 - **Image**:
   
-  <img src="/screenshots/live-feeds.png" alt="Live Video Feed" width="600">  
+  <img src="/screenshots/live-feed.png" alt="Live Video Feed" width="600">  
   
   *Placeholder: Shows a webcam feed with a detected face in a green bounding box labeled "John Doe (Age: 35, Mood: Happy)".*
 
@@ -52,7 +52,7 @@ Below are the main sections of the web interface, with descriptions and placehol
 - **Description**: Lists recent alerts (e.g., "Person detected", "Unknown face detected") with severity, timestamp, and acknowledgment status. Users can acknowledge alerts to mark them as reviewed.
 - **Image**:
   
-  <img src="/screenshots/alerts-panel.png" alt="Alerts Panel" width="600">
+  <img src="/screenshots/alrets-panel.png" alt="Alerts Panel" width="600">
   
   *Placeholder: Displays a table with alerts, including a high-severity alert for an unknown face at 01:17 AM, with an "Acknowledge" button.*
 
